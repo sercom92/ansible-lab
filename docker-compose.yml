@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+    web01:
+        image: ubuntu:24.04
+        container_name: web01
+        command: sleep infinity
+        ports:
+            - "8080:80"
+
+    db01:
+        image: ubuntu:24.04
+        container_name: db01
+        command: sleep infinity
